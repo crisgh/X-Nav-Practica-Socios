@@ -1,0 +1,241 @@
+.jumbotron{
+  text-align: center;
+  border-radius: 10px !important;
+  box-shadow: 2px 2px 4px rgba(40, 23, 108, 0.57);
+  background-position: right;
+  background-repeat:repeat-x;
+  background-image: url("iconos.jpg");
+  position: inherit;
+  height: 180px;
+  width: 100%;
+
+
+}
+.jumbotron h1{
+  font-family: 'Courier New', Courier, monospace;
+  color: #04e6e6;
+  text-shadow: black 0em 0em 0.1em;
+}
+.jumbotron p{
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #053030;
+}
+
+.jumbotron h1 #r1 {
+ position: relative;
+ animation: botar 3s 250ms forwards normal;
+ -webkit-animation:botar 3s 250ms forwards normal;
+ -moz-animation:botar 3s 250ms forwards normal;
+ -ms-animation:botar 3s 250ms forwards normal;
+ -o-animation:botar 3s 250ms forwards normal;
+}
+
+.jumbotron h1 #r2 {
+ position: relative;
+ animation: botar 3s 500ms forwards normal;
+ -webkit-animation:botar 3s 500ms forwards normal;
+ -moz-animation:botar 3s 500ms forwards normal;
+ -ms-animation:botar 3s 500ms forwards normal;
+ -o-animation:botar 3s 500ms forwards normal;
+}
+
+.jumbotron h1 #r3 {
+ position: relative;
+ animation: botar 3s 2000ms forwards normal;
+ -webkit-animation:botar 3s 2000ms forwards normal;
+ -moz-animation:botar 3s 2000ms forwards normal;
+ -ms-animation:botar 3s 2000ms forwards normal;
+ -o-animation:botar 3s 2000ms forwards normal;
+}
+
+.jumbotron h1 #r4 {
+ position: relative;
+ animation: botar 3s 1000ms forwards normal;
+ -webkit-animation:botar 3s 1000ms forwards normal;
+ -moz-animation:botar 3s 1000ms forwards normal;
+ -ms-animation:botar 3s 1000ms forwards normal;
+ -o-animation:botar 3s 1000ms forwards normal;
+}
+
+.jumbotron h1 #r5 {
+ position: relative;
+ animation: botar 3s 750ms forwards normal;
+ -webkit-animation:botar 3s 750ms forwards normal;
+ -moz-animation:botar 3s 750ms forwards normal;
+ -ms-animation:botar 3s 750ms forwards normal;
+ -o-animation:botar 3s 750ms forwards normal;
+}
+
+.jumbotron h1 #r6 {
+ position: relative;
+ animation: botar 3s 1500ms forwards normal;
+ -webkit-animation:botar 3s 1500ms forwards normal;
+ -moz-animation:botar 3s 1500ms forwards normal;
+ -ms-animation:botar 3s 1500ms forwards normal;
+ -o-animation:botar 3s 1500ms forwards normal;
+}
+
+
+@keyframes botar {
+  0% {top:-80px; -moz-animation-timing-function:ease-in;}
+  30% {top:-75px; -moz-animation-timing-function:ease-out;}
+  45% {top:10px; -moz-animation-timing-function:ease-in;}
+  60% {top:-15px; -moz-animation-timing-function:ease-out;}
+  80% {top:15px; -moz-animation-timing-function:ease-in;}
+  84% {top:-8px; -moz-animation-timing-function:ease-out;}
+  86% {top:5px; -moz-animation-timing-function:ease-in;}
+  88% {top:-2px; -moz-animation-timing-function:ease-out;}
+  100% {top:0px;}
+}
+@-webkit-keyframes botar {
+  0% {top:-80px; -moz-animation-timing-function:ease-in;}
+  30% {top:-75px; -moz-animation-timing-function:ease-out;}
+  45% {top:10px; -moz-animation-timing-function:ease-in;}
+  60% {top:-15px; -moz-animation-timing-function:ease-out;}
+  80% {top:15px; -moz-animation-timing-function:ease-in;}
+  84% {top:-8px; -moz-animation-timing-function:ease-out;}
+  86% {top:5px; -moz-animation-timing-function:ease-in;}
+  88% {top:-2px; -moz-animation-timing-function:ease-out;}
+  100% {top:0px;}
+}
+@-moz-keyframes botar {
+ 0% {top:-80px; -moz-animation-timing-function:ease-in;}
+ 30% {top:-75px; -moz-animation-timing-function:ease-out;}
+ 45% {top:10px; -moz-animation-timing-function:ease-in;}
+ 60% {top:-15px; -moz-animation-timing-function:ease-out;}
+ 80% {top:15px; -moz-animation-timing-function:ease-in;}
+ 84% {top:-8px; -moz-animation-timing-function:ease-out;}
+ 86% {top:5px; -moz-animation-timing-function:ease-in;}
+ 88% {top:-2px; -moz-animation-timing-function:ease-out;}
+ 100% {top:0px;}
+}
+@-o-keyframes botar {
+  0% {top:-80px; -moz-animation-timing-function:ease-in;}
+  30% {top:-75px; -moz-animation-timing-function:ease-out;}
+  45% {top:10px; -moz-animation-timing-function:ease-in;}
+  60% {top:-15px; -moz-animation-timing-function:ease-out;}
+  80% {top:15px; -moz-animation-timing-function:ease-in;}
+  84% {top:-8px; -moz-animation-timing-function:ease-out;}
+  86% {top:5px; -moz-animation-timing-function:ease-in;}
+  88% {top:-2px; -moz-animation-timing-function:ease-out;}
+  100% {top:0px;}}
+
+
+
+body{
+	background: linear-gradient(260deg, rgba(246, 120, 204, 0.15) 0%, rgba(155, 195, 236, 0.5) 100%);
+  background-repeat: repeat-y;
+  background-size: auto;
+
+}
+
+.navbar-default{
+	background: linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	background: -moz-linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(52,146,247,1)), color-stop(100%, rgba(87,230,39,1)));
+	background: -webkit-linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	background: -o-linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	background: -ms-linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	background: linear-gradient(8deg, rgb(228, 36, 165) 0%, rgba(7, 38, 215, 0.78) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3492f7', endColorstr='#57e627', GradientType=1 );
+	border: 0px;
+	border-radius: 0px;
+
+}
+.bo{
+	margin-bottom: 20px;
+}
+.navbar-nav li a,.navbar-brand{
+	color: white!important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default
+.navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #08559c!important;
+}
+.media-object{
+	width: 60px;
+  height: 60px;
+}
+.panel-footer{
+	padding: 0px;
+	padding-left: 10px;
+}
+.panel-footer .list-inline{
+	margin-bottom: 0px;
+}
+.panel .media-object{
+	border: 1px solid #c5c5c5;
+}
+.panel .media-heading{
+	margin-top: 17px;
+}
+.panel{
+	margin-bottom: 0px;
+}
+.panel-body {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.panel-footer{
+	margin-top: 10px;
+	background-color: transparent;
+	text-align: left;
+}
+#info-panel{
+	margin-bottom: 30px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.box-img-profile{
+		text-align: center;
+    background-image: url("http://ifoodandhappiness.com/wp-content/uploads/2015/03/Primavera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+#usuario{
+	width: 200px;
+	height: 200px;
+}
+.box-btn-panel{
+	margin-bottom: 20px;
+}
+
+.btn-modal{
+	border-color: transparent!important;
+	padding: 15px!important;
+	border: 0px!important;
+  background: transparent!important;
+}
+.btn-modal:focus,.btn-modal:active{
+	border: 0px!important;
+	background: transparent!important;
+}
+.btn-modal:hover >.panel{
+	background-color:#47cee466 !important;
+	color: white;
+}
+#upload{
+	margin-top: 0px;
+	    border: 0px;
+	    background-color: rgba(136, 239, 235, 0.6);
+	    border-radius: 5px;
+	    height: 50px;
+	    color: white;
+	    margin-right: -15px;
+      margin-left: 12px;
+}
+#foot{
+	text-align: center;
+	font-size: 0.9em;
+	margin-top: 40px;
+}
+p{
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #053030;
+  text-align: center;
+}

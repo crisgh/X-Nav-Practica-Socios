@@ -1,0 +1,38 @@
+[
+	{
+		"titulo":"Probando practica",
+		"autor":"Emsi",
+		"contenido":" Primeras pruebas de JSON !!! ",
+		"fecha":"10-04-2017",
+		"usuario":"http://www.boredart.com/wp-content/uploads/2014/03/Castillo-de-Coca-Spain.jpg"
+	},
+	{
+		"titulo":"Ya queda menos..",
+		"autor":"David",
+		"contenido":" “Nuestra mayor debilidad reside en rendirnos. La forma más seguro de tener éxito es intentarlo una vez más.” ",
+		"fecha":"7-03-2017",
+		"usuario":"https://s-media-cache-ak0.pinimg.com/736x/67/94/1f/67941f8e1c43b73a8987b537861bdcf3.jpg"
+	},
+	{
+		"titulo":"¡¡ Felicidad !!",
+		"autor":"Cabra",
+		"contenido":" Mata más gente el tabaco que los aviones, y he perdido el miedo a volar, y enciendo la faria de las grandes ocasiones en las nubes tengo un BMW, una Playstation tu foto y un par de postales, sigue escribiendo donde quiera que tú estés... ",
+		"fecha":"11-08-2016",
+		"usuario":"http://4.bp.blogspot.com/-wFn7TkGgljA/Tp1H_VUalAI/AAAAAAAAAkI/waRlnlcykcc/s1600/La+cabra+mecanica.jpg"
+	},
+
+	{
+		"titulo":"Jueves de vacaciones",
+		"autor":"David",
+		"contenido":"  Este jueves huele a viernes y a agua con saaaaal ! VACACIONEEES !!",
+		"fecha":"15-04-2016",
+		"usuario":"https://s-media-cache-ak0.pinimg.com/736x/67/94/1f/67941f8e1c43b73a8987b537861bdcf3.jpg"
+	},
+	{
+		"titulo":"Poquito a poco...",
+		"autor":"Winston Churchill",
+		"contenido":" “Es probable que no lleguemos a nuestro destino si nos detenemos a arrojar piedras a cada perro que nos ladra.” ",
+		"fecha":"5-02-2016",
+		"usuario":"http://www.biografiasyvidas.com/biografia/c/fotos/churchill_3.jpg"
+	}
+	]
